@@ -1,0 +1,147 @@
+*{
+margin:0;
+padding:0;
+}
+
+html{
+height: 100%;
+background-color: #BBB;
+}
+
+body{
+margin: 1% 2%;
+border: 1px solid black;
+min-height: 90%;
+min-width: 283px;
+background-color: white;
+}
+
+
+/*---------CSS for name at the top------------*/
+#header{
+text-align: center;
+background-color: #003399;
+border-bottom: 1px solid black;
+}
+#header h1{
+padding: 10px;
+color: white;
+}
+
+/*----------The content navbar----------------*/
+#navbar{
+height: 50px;
+text-align: center;
+z-index: 10;
+background-color: #006699;
+border-bottom: 1px solid black;
+}
+#navbar .categories{
+height: 100%;
+}
+.navLinkTop{
+position: absolute;
+top:50%;
+right:0%;
+margin-top: -0.5em;
+overflow: hidden;
+white-space: nowrap;
+width: 100%;
+text-overflow: ellipsis;
+}
+
+#navbar li{
+display: inline-block;
+height: 100%;
+padding: 0px 70px;
+background-color: #EEE;
+}
+#navbar a{
+text-decoration: none;
+}
+#navbar a:link{
+color:blue;
+}
+#navbar a:visited{
+color:blue;
+}
+
+/*------------'About' dropdown---------------------*/
+#about_button{
+height:100%;
+margin-top: -1px;
+margin-right: -5px;
+position:relative;
+border:1px solid black;
+}
+#about_dropdown {
+	height: 80px;
+	width: 100%;
+	margin: 0 auto;
+	position:absolute; top: 98%; left: -1px; z-index: 9;
+	border: 1px solid black;
+	background-color: #EEE;
+}
+#about_dropdown li{
+	padding: 10px;
+	height: 20px;
+	display: block;
+}
+#about_button:hover{
+background-color:#AAA;
+}
+#about_dropdown li:hover{
+background-color:#BBB;
+}
+
+/*------------'Links' dropdown---------------------*/
+#links_button{
+margin-top: -1px;
+position:relative;
+border:1px solid black;
+padding: 0 20px;
+}
+#links_dropdown {
+	height: 80px;
+	width: 100%;
+	margin: 0 auto;
+	position:absolute; top: 98%; left: -1px; z-index: 9;
+	border: 1px solid black;
+	background-color: #EEE;
+}
+#links_dropdown li{
+	padding: 10px;
+	height: 20px;
+	display: block;
+}
+#links_button:hover{
+background-color:#AAA;
+}
+#links_dropdown li:hover{
+background-color:#BBB;
+}
+
+/*--------------content sections--------------*/
+#content{
+background-color: white;
+}
+
+.subsection{
+padding: 20px;
+}
+.subsection h2{
+color: #484848;
+}
+.subsection p{
+margin: 10px;
+color: #484848;
+}
+.subsection li{
+margin: 10px 20px;
+color: #484848;
+}
+
+/*-----------CSS for hiding elements--------------*/
+.invisible{
+display: none;
+}
